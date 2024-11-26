@@ -1,0 +1,222 @@
+export const gadgets = [
+    {
+      id: 1,
+      name: "Wireless Bluetooth Earbuds",
+      category: "Audio",
+      price: 25000,
+      description: "Compact and lightweight earbuds with noise cancellation and long battery life.",
+      imageUrl: "path/to/earbuds.jpg",
+      rating: 4.7,
+      stock: 150,
+      brand: "SoundPro"
+    },
+    {
+      id: 2,
+      name: "Smart LED Light Bulb",
+      category: "Smart Home",
+      price: 10000,
+      description: "Energy-efficient smart bulb compatible with voice assistants like Alexa and Google Home.",
+      imageUrl: "path/to/smart-bulb.jpg",
+      rating: 4.5,
+      stock: 300,
+      brand: "BrightLife"
+    },
+    {
+      id: 3,
+      name: "Portable Power Bank (20,000mAh)",
+      category: "Accessories",
+      price: 15000,
+      description: "High-capacity power bank with fast-charging support for multiple devices.",
+      imageUrl: "path/to/power-bank.jpg",
+      rating: 4.8,
+      stock: 200,
+      brand: "ChargeMax"
+    },
+    {
+      id: 4,
+      name: "Gaming Headset with RGB Lighting",
+      category: "Gaming",
+      price: 35000,
+      description: "Immersive sound quality, adjustable mic, and customizable RGB lighting.",
+      imageUrl: "path/to/gaming-headset.jpg",
+      rating: 4.6,
+      stock: 120,
+      brand: "GamerPro"
+    },
+    {
+      id: 5,
+      name: "Mini Projector",
+      category: "Gadgets",
+      price: 50000,
+      description: "Portable mini projector with HD resolution, ideal for movies and presentations.",
+      imageUrl: "path/to/mini-projector.jpg",
+      rating: 4.4,
+      stock: 75,
+      brand: "VisionTech"
+    },
+    {
+      id: 6,
+      name: "Wireless Charging Pad",
+      category: "Accessories",
+      price: 8000,
+      description: "Sleek and fast wireless charging pad compatible with most smartphones.",
+      imageUrl: "path/to/wireless-charger.jpg",
+      rating: 4.3,
+      stock: 250,
+      brand: "ChargeEase"
+    },
+    {
+      id: 7,
+      name: "Smart Watch",
+      category: "Wearables",
+      price: 45000,
+      description: "Feature-packed smartwatch with heart rate monitor, GPS, and call functionality.",
+      imageUrl: "path/to/smart-watch.jpg",
+      rating: 4.9,
+      stock: 100,
+      brand: "TimeTrack"
+    },
+    {
+      id: 8,
+      name: "Wireless Keyboard and Mouse Combo",
+      category: "Accessories",
+      price: 18000,
+      description: "Ergonomic wireless keyboard and mouse combo with long battery life.",
+      imageUrl: "path/to/keyboard-mouse.jpg",
+      rating: 4.5,
+      stock: 180,
+      brand: "TypeSwift"
+    },
+    {
+      id: 9,
+      name: "Dash Cam",
+      category: "Car Gadgets",
+      price: 22000,
+      description: "1080p dash camera with night vision and motion detection features.",
+      imageUrl: "path/to/dash-cam.jpg",
+      rating: 4.6,
+      stock: 90,
+      brand: "DriveSafe"
+    },
+    {
+      id: 10,
+      name: "Portable Laptop Stand",
+      category: "Office",
+      price: 12000,
+      description: "Adjustable and lightweight laptop stand for comfortable working posture.",
+      imageUrl: "path/to/laptop-stand.jpg",
+      rating: 4.5,
+      stock: 150,
+      brand: "FlexDesk"
+    },
+    {
+      id: 11,
+      name: "Smart Doorbell Camera",
+      category: "Smart Home",
+      price: 35000,
+      description: "Secure and monitor your door with real-time video and motion alerts.",
+      imageUrl: "path/to/doorbell-camera.jpg",
+      rating: 4.8,
+      stock: 80,
+      brand: "HomeSecure"
+    },
+    {
+      id: 12,
+      name: "Noise-Cancelling Over-Ear Headphones",
+      category: "Audio",
+      price: 40000,
+      description: "Premium headphones with advanced noise-canceling and high-fidelity audio.",
+      imageUrl: "path/to/headphones.jpg",
+      rating: 4.7,
+      stock: 120,
+      brand: "AudioMax"
+    },
+    {
+      id: 13,
+      name: "Portable Photo Printer",
+      category: "Gadgets",
+      price: 30000,
+      description: "Compact photo printer that prints directly from your smartphone.",
+      imageUrl: "path/to/photo-printer.jpg",
+      rating: 4.4,
+      stock: 50,
+      brand: "SnapPrint"
+    },
+    {
+      id: 14,
+      name: "Smart Thermostat",
+      category: "Smart Home",
+      price: 45000,
+      description: "Energy-efficient thermostat with app and voice control compatibility.",
+      imageUrl: "path/to/thermostat.jpg",
+      rating: 4.5,
+      stock: 60,
+      brand: "EcoControl"
+    },
+    {
+      id: 15,
+      name: "RGB Gaming Mouse",
+      category: "Gaming",
+      price: 12000,
+      description: "High-precision gaming mouse with customizable RGB lighting.",
+      imageUrl: "path/to/gaming-mouse.jpg",
+      rating: 4.6,
+      stock: 300,
+      brand: "ProClick"
+    },
+    {
+      id: 16,
+      name: "4K Streaming Stick",
+      category: "Media",
+      price: 25000,
+      description: "Stream movies and TV shows in 4K Ultra HD with voice assistant support.",
+      imageUrl: "path/to/streaming-stick.jpg",
+      rating: 4.7,
+      stock: 200,
+      brand: "StreamPro"
+    },
+    {
+      id: 17,
+      name: "Virtual Reality Headset",
+      category: "Gaming",
+      price: 75000,
+      description: "Immerse yourself in virtual worlds with this advanced VR headset.",
+      imageUrl: "path/to/vr-headset.jpg",
+      rating: 4.8,
+      stock: 40,
+      brand: "VRVision"
+    },
+    {
+      id: 18,
+      name: "Cordless Vacuum Cleaner",
+      category: "Home Appliances",
+      price: 35000,
+      description: "Lightweight and powerful vacuum cleaner with long battery life.",
+      imageUrl: "path/to/vacuum.jpg",
+      rating: 4.6,
+      stock: 70,
+      brand: "CleanEase"
+    },
+    {
+      id: 19,
+      name: "Smartphone Gimbal Stabilizer",
+      category: "Photography",
+      price: 30000,
+      description: "Capture smooth and cinematic videos with this smartphone gimbal.",
+      imageUrl: "path/to/gimbal.jpg",
+      rating: 4.7,
+      stock: 80,
+      brand: "SteadyShot"
+    },
+    {
+      id: 20,
+      name: "Electric Scooter",
+      category: "Transportation",
+      price: 150000,
+      description: "Eco-friendly electric scooter with a range of 30km per charge.",
+      imageUrl: "path/to/electric-scooter.jpg",
+      rating: 4.8,
+      stock: 25,
+      brand: "EcoRide"
+    }
+  ];
